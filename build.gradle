@@ -44,7 +44,12 @@ dependencies {
     compile("io.springfox:springfox-swagger2:$springfox_version")
     compile("com.alibaba:fastjson:1.2.36")
     compile("commons-codec:commons-codec:1.11")
-
+    compile("org.apache.commons:commons-collections4:$commons_collections4_version")
+    compile("org.apache.commons:commons-lang3:$commons_lang3_version")
+    compile("org.apache.commons:commons-pool2:$commons_pool2_version")
+    compile("org.hibernate:hibernate-envers:$hibernate_version")
+    compile("org.hibernate:hibernate-core:$hibernate_version")
+    compile("org.hibernate:hibernate-ehcache:$hibernate_version")
     compile group: 'commons-configuration', name: 'commons-configuration', version: '1.10'
 }
 
